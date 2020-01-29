@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChunkedTerrainWindows", "ChunkedTerrainWindows\ChunkedTerrainWindows.csproj", "{7E496194-E6A4-44ED-A4C8-C57A19848164}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ChunkedTerrainCore", "ChunkedTerrainCore\ChunkedTerrainCore.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ChunkedTerrainCore\ChunkedTerrainCore.projitems*{7e496194-e6a4-44ed-a4c8-c57a19848164}*SharedItemsImports = 4
+		ChunkedTerrainCore\ChunkedTerrainCore.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E496194-E6A4-44ED-A4C8-C57A19848164}.Debug|x86.ActiveCfg = Debug|x86
+		{7E496194-E6A4-44ED-A4C8-C57A19848164}.Debug|x86.Build.0 = Debug|x86
+		{7E496194-E6A4-44ED-A4C8-C57A19848164}.Release|x86.ActiveCfg = Release|x86
+		{7E496194-E6A4-44ED-A4C8-C57A19848164}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF131DD6-04DA-4CF2-91CB-0339A1C31CEA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3136046d-e82b-40ce-a9ef-69a375a89e67</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ChunkedTerrainCore</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ChunkedTerrainGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environment\DirectionLight.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environment\HeightProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environment\TerrainHeightProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environment\TerrainChunk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environment\TerrainVertex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environment\World.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\DecorItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Enums\CameraMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Enums\WaterClipMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Globals.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\GridTriangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\NoiseProvider.cs" />
+  </ItemGroup>
+</Project>

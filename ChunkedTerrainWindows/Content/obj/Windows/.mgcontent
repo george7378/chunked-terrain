@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Effects/TerrainEffect.fx</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Effects/TreeEffect.fx</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Effects/WaterEffect.fx</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Models/Tree.x</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Models/WaterTile.x</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Textures/ground.jpg</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Textures/groundDetail.jpg</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Textures/groundSlope.jpg</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Textures/sun.png</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Textures/tree.png</File>
+    <File>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Textures/waterNormal.jpg</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>Effects/TerrainEffect.fx</File>
+    <File>Effects/TreeEffect.fx</File>
+    <File>Effects/WaterEffect.fx</File>
+    <File>Models/Tree.x</File>
+    <File>Models/WaterTile.x</File>
+    <File>Textures/ground.jpg</File>
+    <File>Textures/groundDetail.jpg</File>
+    <File>Textures/groundSlope.jpg</File>
+    <File>Textures/sun.png</File>
+    <File>Textures/tree.png</File>
+    <File>Textures/waterNormal.jpg</File>
+  </DestFiles>
+</SourceFileCollection>

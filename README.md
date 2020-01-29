@@ -1,5 +1,5 @@
 # chunked-terrain
->For a similar terrain system which uses quadtrees, check out [this project](https://github.com/george7378/quadtree-terrain)
+>For a similar terrain system which uses quadtrees, check out [this project](https://github.com/george7378/quadtree-terrain).
 
 Chunked Terrain is a C#/MonoGame program demonstrating a chunked procedural terrain algorithm which can be used to render very large-scale worlds.
 

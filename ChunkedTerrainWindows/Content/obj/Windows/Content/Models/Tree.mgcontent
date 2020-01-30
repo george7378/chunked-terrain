@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Models/Tree.x</SourceFile>
-  <SourceTime>2020-01-29T17:16:02.8498803+00:00</SourceTime>
-  <DestFile>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/bin/Windows/Content/Models/Tree.xnb</DestFile>
-  <DestTime>2020-01-29T17:18:45.700909+00:00</DestTime>
+  <SourceFile>C:/Users/Victor/Desktop/chunked-terrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Models/Tree.x</SourceFile>
+  <SourceTime>2020-01-30T17:35:13.8474917+00:00</SourceTime>
+  <DestFile>C:/Users/Victor/Desktop/chunked-terrain/ChunkedTerrainWindows/Content/bin/Windows/Content/Models/Tree.xnb</DestFile>
+  <DestTime>2020-01-30T17:37:11.5880122+00:00</DestTime>
   <Importer>XImporter</Importer>
   <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
   <Processor>ModelProcessor</Processor>

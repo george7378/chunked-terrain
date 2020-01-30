@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Effects/WaterEffect.fx</SourceFile>
-  <SourceTime>2020-01-29T13:12:30.7355021+00:00</SourceTime>
-  <DestFile>C:/Users/Victor/Documents/Visual Studio 2017/Projects/ChunkedTerrain/ChunkedTerrainWindows/Content/bin/Windows/Content/Effects/WaterEffect.xnb</DestFile>
-  <DestTime>2020-01-29T13:13:37.3956589+00:00</DestTime>
+  <SourceFile>C:/Users/Victor/Desktop/chunked-terrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Effects/WaterEffect.fx</SourceFile>
+  <SourceTime>2020-01-30T17:35:13.845493+00:00</SourceTime>
+  <DestFile>C:/Users/Victor/Desktop/chunked-terrain/ChunkedTerrainWindows/Content/bin/Windows/Content/Effects/WaterEffect.xnb</DestFile>
+  <DestTime>2020-01-30T17:37:10.9743913+00:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

@@ -267,21 +267,24 @@ namespace ChunkedTerrainCore
 			{
 				Vector3 forwardVector = Vector3.Zero;
 				Vector3 rightVector = Vector3.Zero;
+				float strafeSpeed = 0;
 
 				switch (_camera.Mode)
 				{
 					case CameraMode.Walk:
 						forwardVector = Vector3.Normalize(new Vector3(_camera.LookDirection.X, 0, _camera.LookDirection.Z));
 						rightVector = Vector3.Transform(forwardVector, Matrix.CreateRotationY((float)(-Math.PI/2)));
+						strafeSpeed = 0.5f;
 						break;
 
 					case CameraMode.Fly:
 						forwardVector = _camera.LookDirection;
 						rightVector = Vector3.Normalize(Vector3.Cross(forwardVector, Vector3.UnitY));
+						strafeSpeed = 2;
 						break;
 				}
 
-				newCameraPosition += 0.5f*(forwardVector*strafeVector.Y + rightVector*strafeVector.X);
+				newCameraPosition += strafeSpeed*(forwardVector*strafeVector.Y + rightVector*strafeVector.X);
 			}
 
 			if (_camera.Mode == CameraMode.Walk)
@@ -333,7 +336,7 @@ namespace ChunkedTerrainCore
 			int worldSeed = 0;
 			NoiseProvider mainNoiseProvider = new NoiseProvider(worldSeed, 4, 0.2f, 200);
 			NoiseProvider modulationNoiseProvider = new NoiseProvider(worldSeed + 1, 2, 0.2f, 600);
-			DirectionLight light = new DirectionLight(Vector3.Normalize(new Vector3(0, -0.3f, -1)), 1, 0.1f, 64);
+			DirectionLight light = new DirectionLight(Vector3.Normalize(new Vector3(0, -0.3f, 1)), 1, 0.1f, 64);
 			NoiseProvider decorNoiseProvider = new NoiseProvider(worldSeed + 2, 2, 0.2f, 200);
 			_world = new World(GraphicsDevice, new TerrainHeightProvider(mainNoiseProvider, modulationNoiseProvider), light, decorNoiseProvider);
 

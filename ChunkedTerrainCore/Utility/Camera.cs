@@ -17,6 +17,8 @@ namespace ChunkedTerrainCore.Utility
 		private Vector3 _position;
 		private float _altitudeAngle, _azimuthAngle;
 
+		private Matrix _projectionMatrix;
+
 		#endregion
 
 		#region Properties
@@ -82,7 +84,19 @@ namespace ChunkedTerrainCore.Utility
 
 		public Matrix ViewMatrixWaterReflect { get; private set; }
 
-		public Matrix ProjectionMatrix { get; set; }
+		public Matrix ProjectionMatrix
+		{
+			get
+			{
+				return _projectionMatrix;
+			}
+			set
+			{
+				_projectionMatrix = value;
+
+				Refresh();
+			}
+		}
 
 		public BoundingFrustum Frustum { get; private set; }
 
@@ -94,8 +108,7 @@ namespace ChunkedTerrainCore.Utility
 
 		public Camera()
 		{
-			Frustum = new BoundingFrustum(Matrix.Identity);
-			FrustumWaterReflect = new BoundingFrustum(Matrix.Identity);
+			Refresh();
 		}
 
 		#endregion

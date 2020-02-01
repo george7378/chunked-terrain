@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/Victor/Desktop/chunked-terrain/ChunkedTerrainWindows/Content/../../ChunkedTerrainCore/Content/Textures/groundSlope.jpg</SourceFile>
-  <SourceTime>2020-01-30T17:35:13.8614843+00:00</SourceTime>
+  <SourceTime>2020-02-01T12:01:13.7317665+00:00</SourceTime>
   <DestFile>C:/Users/Victor/Desktop/chunked-terrain/ChunkedTerrainWindows/Content/bin/Windows/Content/Textures/groundSlope.xnb</DestFile>
-  <DestTime>2020-01-30T17:37:13.5627962+00:00</DestTime>
+  <DestTime>2020-02-01T12:02:27.9831426+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -7,7 +7,7 @@ As you move around the terrain, the world will update dynamically to ensure that
 
 You can explore using the mouse and keyboard. When the program starts, there may be a few seconds of delay while the terrain loads in for the first time. The **C** key toggles whether the camera is attached to the mouse, and the **Space** key will allow you to walk across the landscape or fly through the air. You can use the **WASD** keys to move around.
 
-![Sitting under a tree and reflecting](https://raw.githubusercontent.com/george7378/chunked-terrain/master/_img/1.png)
-![Forests, water and sunlight](https://raw.githubusercontent.com/george7378/chunked-terrain/master/_img/2.png)
-![Some calm lakes](https://raw.githubusercontent.com/george7378/chunked-terrain/master/_img/3.png)
-![Peaceful islands](https://raw.githubusercontent.com/george7378/chunked-terrain/master/_img/4.png)
+![Sitting under a tree and reflecting](https://raw.githubusercontent.com/george7378/chunked-terrain/master/misc/readme/1.png)
+![Forests, water and sunlight](https://raw.githubusercontent.com/george7378/chunked-terrain/master/misc/readme/2.png)
+![Some calm lakes](https://raw.githubusercontent.com/george7378/chunked-terrain/master/misc/readme/3.png)
+![Peaceful islands](https://raw.githubusercontent.com/george7378/chunked-terrain/master/misc/readme/4.png)
